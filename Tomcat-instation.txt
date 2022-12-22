@@ -1,3 +1,6 @@
+ #Author: Ibrehima Keita Devops Engineer USA- Silver Spring 
+ # Install Tomcat on Redhat , CentOS, Amazon Linux 
+ # At least 4GB===> t2-medium 
  # install Java JDK 1.8+ as a pre-requisit for tomcat to run.
 sudo hostnamectl set-hostname tomcat
 cd /opt 
