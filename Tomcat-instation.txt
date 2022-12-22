@@ -15,3 +15,15 @@ sudo yum install java-1.8.0-openjdk-devel -y
   sudo ln -s /opt/tomcat9/bin/startup.sh /usr/bin/starttomcat
   sudo ln -s /opt/tomcat9/bin/shutdown.sh /usr/bin/stoptomcat
   starttomcat
+  
+  #============================================================================================
+  #Enable external by doing this ===> :
+                       #1- cd to /opt/tomcat9/webapps
+                       #2- cd to /opt/tomcat9/webapps/manager/META-INF
+                       #3-  vi to context.xml
+                       #4- comented this :  <!--  <Valve className="org.apache.catalina.valves.RemoteAddrValve"
+                                                                    #allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1" /> -->
+   # Add users ===>    /opt/tomcat9/conf then vi to tomcat-users.xml
+
+
+
