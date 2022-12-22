@@ -17,7 +17,7 @@ sudo yum install java-1.8.0-openjdk-devel -y
   starttomcat
   
   #============================================================================================
-  #Enable external by doing this ===> :
+  #Enable external access by doing this ===> :
                        #1- cd to /opt/tomcat9/webapps
                        #2- cd to /opt/tomcat9/webapps/manager/META-INF
                        #3-  vi to context.xml
