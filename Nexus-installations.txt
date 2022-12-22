@@ -1,4 +1,4 @@
-   #Author Ibrehima Keita USA Silver Spring 
+   #Author Ibrehima Devops Engineer Keita USA Silver Spring 
    # Install Sonarqube on RedHat, Centos, Amzon Linux
    #At have to have t2 medium with 4GB
    sudo hostname nexus
@@ -6,7 +6,7 @@
    sudo echo "nexus ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/nexus
    sudo su - nexus
 
-====================================================
+#====================================================
    cd /opt
    sudo yum install wget git nano unzip -y
    sudo yum install java-11-openjdk-devel java-1.8.0-openjdk-devel -y
@@ -23,4 +23,4 @@
    sudo systemctl enable nexus
    sudo systemctl start nexus
    sudo systemctl status nexus
-     
+   
