@@ -1,5 +1,5 @@
    #Author Ibrehima Devops Engineer Keita USA Silver Spring 
-   # Install Sonarqube on RedHat, Centos, Amzon Linux
+   # Install Nexus on RedHat, Centos, Amzon Linux
    #At have to have t2 medium with 4GB
    sudo hostname nexus
    sudo useradd nexus
