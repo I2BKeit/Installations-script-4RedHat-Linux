@@ -23,4 +23,6 @@
    sudo systemctl enable nexus
    sudo systemctl start nexus
    sudo systemctl status nexus
+   # Nexus default port is 8081
+   # Nexus default password admin123 and username = admin
    
