@@ -28,4 +28,4 @@ echo "echo of jenkins installation"
 #Notice Important =============
 #after installed Jenkins make sure to vi /etc/passwd
 #and change :/var/lib/jenkins:bin/bash
-# After intallation switch su - to be jenkins users . 
+# After intallation switch su - to be jenkins user . 
